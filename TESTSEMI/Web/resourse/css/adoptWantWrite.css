@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  margin-top:20px;
+}
+.adoptWantWrite{
+	padding-top: 200px;       
+  	text-align: center;
+  	overflow: hidden;
+  	width: 90%;
+  	margin-left: auto;
+ 	margin-right: auto;
+}
+
+#ul.subject ui{
+	list-styl:none; 
+}
+#ul.subject li{
+	position : relative;
+	diplay:inline; 
+}

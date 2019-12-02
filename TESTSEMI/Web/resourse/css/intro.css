@@ -1,0 +1,244 @@
+@charset "UTF-8";
+*{
+    line-height: 1.4;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.main-header{
+    top: 0px;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 100;
+    box-shadow: 0px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.scl .main_header_container{
+    position: relative;
+    font-size: 30px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    transition: 1s;
+}
+
+.main_header_container{
+    position: relative;
+    font-size: 50px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.section1_background{
+    position: relative;
+    background: rgb(193, 235, 252)!important;
+    color: black;
+    width: 100%;
+    height: auto;
+    padding:  100px 0px  50px  0px;
+}
+.et_pd_row{
+    margin: auto;
+    height: auto;
+    position: relative;
+    letter-spacing: 3px;
+    padding:  20px 0px  20px  0px;
+
+}
+.et_pd_column{
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+/* ***************************************************** */
+
+.section_divide{
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+
+/* ***************************************************** */
+.section2_background{
+    width: 86%;
+    height: auto;
+    padding: 54px 44px 54px 0px; 
+    /* margin: 0% 7% 0% 7%; */
+    margin: auto;
+    background-color: #e5e5e5!important;
+    position: relative;
+}
+
+.et_pd_row2{
+    max-width: 95%;
+    padding-top: 33px;
+    position: relative;
+    margin: auto;
+}
+.et_pd_column2{
+    margin-right: 7%;
+    float: center;
+    z-index: 9;
+    float: left; 
+    position: relative;
+}
+.et_pd_text{
+    position: relative;
+    font-size: 16px;
+    line-height: 1.9em;
+    padding: 10%;
+    max-width: 600px;
+    background-color: aliceblue;
+    box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.71);
+}
+.et_pd_column2_button{
+    float: left;
+    width: 12%;
+    position: relative;
+    text-align: center;
+}
+
+.et_pd_column2_button button{
+    padding: 5px 10px 5px 10px;
+    margin-top: 45px;
+    background-color: #e5e5e5;
+    border-radius: 33px;
+    border: 2px solid black;
+    font-size: 13px;
+}
+
+
+/* ******************************************************* */
+
+.section3_background{
+    
+    position: relative;
+    background-color: white;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+}
+
+.section3_article_row{
+    position: relative;
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.section3_column{
+    text-align: left;
+    position:relative;
+    padding: 2% 0% 5% 0%;
+    width: 47.25%;
+    margin-right: 5%;
+    float: left;
+}
+
+.section3_column_header{
+    position: relative;
+    color: #fcd21d;
+    font-weight: 650;
+    font-size: 1.8em;
+
+}
+.section3_column_image{
+    position: relative;
+    width: 46%;
+    float: left;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.et_pd_row2:after,
+.section3_article_row:after,
+.et_pd_ro:after{
+    display: block;
+    visibility: hidden;
+    clear: both;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    content: ".";
+}
+
+
+
+/* ******************************************************* */
+.footer{
+
+    color: black;
+    text-align: center;
+
+}
+
+
+
+/* ******************************************************* */
+@media (min-width: 980px){
+
+    .et_pd_column h1{
+        font-size: 40px;
+    }
+
+    .et_pd_column div{
+        font-size: 25px;
+    }
+
+    .section3_column,
+    .section3_column_image{
+        width: 47.25%;
+    }
+}
+@media (max-width: 981px){
+
+    .et_pd_column h1{
+        font-size: 24px;
+    }
+
+    .et_pd_column2
+    {
+        width: 100%;
+    }
+    .et_pd_column2_button{
+        width: 33%;
+        left: 35%;
+    }
+
+    .et_pd_column div{  
+        font-size: 15px;
+    }
+
+    .section3_column,
+    .section3_column_image{
+        width: 100%;
+    }
+}
+
+@media(min-width:1050px){
+    .et_pd_row2{
+        max-width: 80%;
+    }
+    .et_pd_column2_button {
+        width: 24%;
+    }
+    .et_pd_column2_button button{
+        font-size: 20px;
+    }
+}

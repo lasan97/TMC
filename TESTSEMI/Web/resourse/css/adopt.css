@@ -1,0 +1,79 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 20px;       
+}
+
+.ip_search{  
+  /* float:right; */
+  margin: 0 0 1px 1px;
+}
+
+.ip_search span{
+  margin-right: 5px;
+}
+
+.ip_search span{
+  margin-right: 5px;
+}
+
+.ip_search_box{
+  background-color: #f1f1f1;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.ip_pagination{
+  list-style-type: none;
+  text-align: center;
+}
+.ip_pagination ul{
+  list-style: none;
+  text-align:center;
+}
+.ip_pagination li{
+  display: inline;
+}
+.ip_ga_table{
+  text-align: center;
+  width: 100%;
+  margin-bottom:5px;
+}
+.ip_bbt{
+  float: right; 
+}
+.ip_bbt input{
+  background-color: white;
+}
+
+.ip_ga_table th{
+  /* margin: 0 0 0 3em; */
+  padding:5px 0 6px; 
+  border-top: solid 1px #999; 
+  border-bottom: solid 1px #b2b2b2b2;
+  background-color: #f1f1f1;
+  color: #333;
+  font-weight: bold;
+  line-height: 20px;
+  vertical-align: top;
+}
+.ip_ga_table td{
+  /* margin: 0 0 0 3em; */
+  padding:8px 0 9px; 
+  /* border-top: solid 1px #d2d2d2; */
+  border-bottom: solid 1px #d2d2d2; 
+  background-color:white;
+  text-align: center;
+  line-height: 18px;
+}
+
+
+

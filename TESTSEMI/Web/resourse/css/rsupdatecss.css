@@ -1,0 +1,72 @@
+.rsBoard{
+	height: auto;
+	width: 900px;
+	background: white;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+#rsInsertBoard .rs-boardData{
+	float: left;
+}
+
+.rsBoard p{
+	margin-top: 2px;
+    margin-bottom: 2px;
+    
+}
+
+.entry-content{
+	text-align:center; 
+		width: 100%;
+		height: auto;
+}
+#rsTitleBar{
+    margin: 40px 10px 0px 0px;
+    float: right;
+    border-bottom: 1px solid;
+}
+.rsListTitle{
+	float: right;
+	font-size: 30px;
+	min-width: 330px;
+}
+
+
+#rsInsertBoard #rsUserId{
+	border-bottom: 2px solid black;
+	margin-bottom: -1px;
+}
+#rsInsertBoard{
+	display: inline-block;
+	width: 700px;
+	height: auto;
+
+	margin-top: 50px;
+}#test2{
+	float:right;
+}
+#test2 li{
+	float:right;
+	margin-right: 20px;
+}
+.rsListTitle{
+	width:100px;
+}
+   #mainImg {
+	text-align: center;
+	width: 220px;
+	height: 150px;
+		margin-top:-40px;
+}
+#mainImg img {
+
+	height: 150px;
+	width: 220px;
+}
+#rsServicesBar {
+	width: 100%;
+	height: 30px;
+	background: black;
+	text-align: center;
+	margin-bottom: 10px;
+}

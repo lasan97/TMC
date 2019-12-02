@@ -1,0 +1,116 @@
+@charset "UTF-8";
+.rsBoard{
+	height: 900px;
+
+}.rsBoard,.entry-content{
+	width: 100%;
+	height: auto;
+}
+/* 게시판 이동 퍼튼 */
+#rsTitleButton{
+display:inline-block; 
+width: 200px; height: 50px; 
+background: white;	
+margin: 5px;
+
+}
+#rsTitleButton p{
+	margin: 13px 0 0 0;
+}
+#rsTitleButton:hover{
+	background: orange;
+}
+
+/* #rsTitleButton2{
+	display:inline-block; 
+	width: 200px; height: 50px; 
+	background-color: white; 
+	margin-left: 5px;
+}
+#rsTitleButton2 p{
+	margin: 13px 0 0 0;
+}
+#rsTitleButton2:hover{
+	background-color: orange; }*/
+	
+
+/* 게시판 페이지 */
+#rsViewList{
+	width: 100%;
+	height: auto;
+}
+
+/* 수정해야함 */
+ #rsTitleSelect{
+	text-align:center; 
+	margin-top: 20px;
+} 
+/* 결과 값 줄 div 3개씩 */
+.rsList{
+	text-align:center; 
+	display:inline-block;
+	height: auto;
+	width: 100%;
+}
+/* 게시물 */
+.thumb-list {
+	width:220px;
+	/* border:1px solid white; */
+	display:inline-block;
+	margin:10px 40px 0px 40px;
+	transition: 0.5s;
+	background: white;
+	border-radius: 5px;
+}
+.thumb-list img{
+	width: 100%;
+	height: 150px;
+}
+.thumb-list p{
+	margin: auto;
+} 
+.ListData{
+	font-size: 10px;
+	/* float: left; */
+}
+.rsDataView{
+	float: left;
+}
+.rsLike{
+	float: right;
+}
+.rsViewCount{
+	float: right;
+	margin-right: 5px;
+}
+.thumb-list:hover{
+	opacity: 0.5;
+}
+
+/* 페이징 */
+#rsBoardManager{
+	width: 100%;
+	text-align:center; 
+}
+#rsBoardManager li{
+	display:inline-block;
+} 
+.rsPage:hover{
+	background: orange;
+}
+/* 검색 */
+#rsBoardSearch{
+	margin-left: 10%;
+	float: left;
+} 
+/* 글쓰기 */
+#rsBoardInsert{
+	float: right; margin-right: 10%;
+}
+
+#trPagingNum{
+	color: black;
+}
+
+
+

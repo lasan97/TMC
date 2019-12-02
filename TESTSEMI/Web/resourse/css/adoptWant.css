@@ -1,0 +1,116 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+ body{
+  padding-top: 20px;   
+}
+
+.img_ga_maintext{
+  text-align: left;
+}
+
+.img-ga{
+  padding: 2px;
+  margin:  0px;
+}
+
+/* 검색 */
+.ip_search{  
+  /* float:right; */
+  margin: 0 0 1px 1px;
+}
+
+.ip_search span{
+  margin-right: 5px;
+}
+
+.ip_search_box{
+  background-color: #f1f1f1;
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+/* 검색 끝 */
+
+/* 이미지 갤러리 */
+.gallery_ga{
+  text-align: center;
+  overflow: hidden;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.gallery_list img{
+  width: 300px;
+  height: 187px;
+  overflow: hidden;
+}
+
+.gallery_list dl{
+  background-color: white;
+  padding: 15px 15px 0 15px;
+  margin: 0 20px 15px 20px;
+  width: 350px;
+  display: block;
+  overflow: hidden;
+  float: left;
+}
+
+.gallery_list{
+  overflow: hidden;
+}
+
+.gallery_list li{
+  position: relative;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.gallery_list dl dd dl{
+  width: 300px;
+}
+
+.gallery_list dl dd{
+  text-align: center;
+}
+
+/* 이미지 갤러리 끝 */
+
+ul{
+  list-style: none;
+  list-style-type: none;
+}
+
+.ip_pagination{
+  /* float:none; */
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.ip_pagination ul{
+  list-style: none;
+  text-align:center;
+}
+.ip_pagination li{
+  display: inline;
+  text-align:center;
+}
+
+.bbt{
+  float: right;
+}
+.bbt input{
+  background-color: white;
+}
+
